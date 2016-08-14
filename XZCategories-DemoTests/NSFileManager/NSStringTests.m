@@ -10,6 +10,7 @@
 #import "NSString+XZPinyin.h"
 #import "NSString+XZRegular.h"
 #import "NSString+XZNumerical.h"
+#import "NSString+XZURLEncode.h"
 @interface NSStringTests : XCTestCase
 
 @end
@@ -107,26 +108,7 @@
                            ];
     
     for (NSString *testText in testArray) {
-//        /// 只能输入数字(不能有小数点等其他任何字符,首位可以为0)
-//        - (BOOL)xz_limitDigital;
-//        /// 只能输入n位的数字
-//        - (BOOL)xz_limitDigitalWithMaxDigits:(NSInteger)maxDigits;
-//        /// 只能输入至少n位的数字
-//        - (BOOL)xz_limitDigitalWithMinDigits:(NSInteger)minDigits;
-//        /// 只能输入m~n位的数字
-//        - (BOOL)xz_limitDigitalWithMaxDigits:(NSInteger)maxDigits
-//    MinDigits:(NSInteger)minDigits;
-//        /// 只能输入零和非零开头的数字
-//        - (BOOL)xz_limitDigitalWithoutZeroAtTheBeginning;
-//        /// 只能输入有两位小数的正实数
-//        - (BOOL)xz_limitDigitalWithTwoDecimalPlaces;
-//        /// 只能输入小数后几位
-//        - (BOOL)xz_limitDigitalAfterTheDecimalPointMinLength:(NSInteger )minLength
-//    MaxLength:(NSInteger )maxLength;
-//        /// 只能输入非零的正整数
-//        - (BOOL)xz_limitNonZeroPositiveInteger;
-//        /// 只能输入非零的负整数
-//        - (BOOL)xz_limitNonZeroNegativeInteger;
+
         NSLog(@"%@ limitDigital : %@",testText,[testText xz_limitDigital] ?@"YES":@"NO");
         NSLog(@"%@ limitDigitalWithMaxDigits_%d : %@",testText,2,[testText xz_limitDigitalWithMaxDigits:2] ?@"YES":@"NO");
         NSLog(@"%@ limitDigitalWithMinDigits_%d : %@",testText,2,[testText xz_limitDigitalWithMinDigits:2] ?@"YES":@"NO");
@@ -139,4 +121,19 @@
         NSLog(@"\n\n\n");
     }
 }
+
+-(void)testURLEncode{
+    
+    NSString *testText = @"周杰伦 jaychou";
+    NSString *urlEncode = [testText xz_urlEncode];
+    NSString *urlDecode = [urlEncode xz_urlDecode];
+    NSLog(@"urlEncode is %@",urlEncode);
+    NSLog(@"urlDecode is %@",urlDecode);
+    
+    NSString *testString = @"https://wireless.xiaozhu.com/app/xzfk/ios/3.4.0/search/result?radius=2&minPrice=0&cityName=%E4%B8%8A%E6%B5%B7&longitude=116.197075&guestNum=0&orderBy=recommend&length=10&latitude=39.913414&locId=2w&sessId=236d65f0a01e1da25f119f7131d2e85d&userId=438404500&offset=0&xzsign=md5_42e4c12b019e7fc92fa3fda79b3953e5&cityId=13&_=1470389269106";
+    NSDictionary *dic = [[NSURL URLWithString:testString].query xz_dictionaryFromURLParameters];
+    NSLog(@"dic = %@",dic);
+}
+
+
 @end

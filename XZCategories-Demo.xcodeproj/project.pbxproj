@@ -26,7 +26,11 @@
 		684BA37D1D5DA8A100982529 /* NSString+XZJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA37C1D5DA8A100982529 /* NSString+XZJSONSerialization.m */; };
 		684BA3801D5DA8EA00982529 /* NSDictionary+XZJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA37F1D5DA8EA00982529 /* NSDictionary+XZJSONSerialization.m */; };
 		684BA3841D5DA95700982529 /* NSArray+XZJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3831D5DA95700982529 /* NSArray+XZJSONSerialization.m */; };
-		684BA3871D5DAB9500982529 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3861D5DAB9500982529 /* NSString+URLEncode.m */; };
+		684BA3901D5DADCB00982529 /* NSString+XZURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA38F1D5DADCB00982529 /* NSString+XZURLEncode.m */; };
+		684BA3941D5DB8B100982529 /* NSDate+XZUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3931D5DB8B100982529 /* NSDate+XZUtilities.m */; };
+		684BA3971D5DD38F00982529 /* NSDate+XZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3961D5DD38F00982529 /* NSDate+XZExtension.m */; };
+		684BA3991D60568E00982529 /* NSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3981D60568E00982529 /* NSDateTests.m */; };
+		684BA39C1D6074D400982529 /* NSDate+XZFormatString.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA39B1D6074D400982529 /* NSDate+XZFormatString.m */; };
 		68826D281D59AD8E0049057F /* NSURLTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D271D59AD8E0049057F /* NSURLTexts.m */; };
 		68826D2C1D59B4930049057F /* NSDictionary+XZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D2B1D59B4930049057F /* NSDictionary+XZURL.m */; };
 		68826D2E1D59B8700049057F /* NSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D2D1D59B8700049057F /* NSDictionaryTests.m */; };
@@ -92,8 +96,15 @@
 		684BA37F1D5DA8EA00982529 /* NSDictionary+XZJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZJSONSerialization.m"; sourceTree = "<group>"; };
 		684BA3821D5DA95700982529 /* NSArray+XZJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZJSONSerialization.h"; sourceTree = "<group>"; };
 		684BA3831D5DA95700982529 /* NSArray+XZJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZJSONSerialization.m"; sourceTree = "<group>"; };
-		684BA3851D5DAB9500982529 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
-		684BA3861D5DAB9500982529 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		684BA38E1D5DADCB00982529 /* NSString+XZURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZURLEncode.h"; sourceTree = "<group>"; };
+		684BA38F1D5DADCB00982529 /* NSString+XZURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZURLEncode.m"; sourceTree = "<group>"; };
+		684BA3921D5DB8B100982529 /* NSDate+XZUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XZUtilities.h"; sourceTree = "<group>"; };
+		684BA3931D5DB8B100982529 /* NSDate+XZUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XZUtilities.m"; sourceTree = "<group>"; };
+		684BA3951D5DD38F00982529 /* NSDate+XZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XZExtension.h"; sourceTree = "<group>"; };
+		684BA3961D5DD38F00982529 /* NSDate+XZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XZExtension.m"; sourceTree = "<group>"; };
+		684BA3981D60568E00982529 /* NSDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateTests.m; sourceTree = "<group>"; };
+		684BA39A1D6074D400982529 /* NSDate+XZFormatString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XZFormatString.h"; sourceTree = "<group>"; };
+		684BA39B1D6074D400982529 /* NSDate+XZFormatString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XZFormatString.m"; sourceTree = "<group>"; };
 		68826D271D59AD8E0049057F /* NSURLTexts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTexts.m; sourceTree = "<group>"; };
 		68826D2A1D59B4930049057F /* NSDictionary+XZURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZURL.h"; sourceTree = "<group>"; };
 		68826D2B1D59B4930049057F /* NSDictionary+XZURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZURL.m"; sourceTree = "<group>"; };
@@ -189,8 +200,8 @@
 				684BA36F1D5D9B3300982529 /* NSString+XZEncryption.m */,
 				684BA37B1D5DA8A100982529 /* NSString+XZJSONSerialization.h */,
 				684BA37C1D5DA8A100982529 /* NSString+XZJSONSerialization.m */,
-				684BA3851D5DAB9500982529 /* NSString+URLEncode.h */,
-				684BA3861D5DAB9500982529 /* NSString+URLEncode.m */,
+				684BA38E1D5DADCB00982529 /* NSString+XZURLEncode.h */,
+				684BA38F1D5DADCB00982529 /* NSString+XZURLEncode.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -215,6 +226,26 @@
 				684BA3831D5DA95700982529 /* NSArray+XZJSONSerialization.m */,
 			);
 			path = NSArray;
+			sourceTree = "<group>";
+		};
+		684BA3911D5DB88100982529 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				684BA3921D5DB8B100982529 /* NSDate+XZUtilities.h */,
+				684BA3931D5DB8B100982529 /* NSDate+XZUtilities.m */,
+				684BA3951D5DD38F00982529 /* NSDate+XZExtension.h */,
+				684BA3961D5DD38F00982529 /* NSDate+XZExtension.m */,
+				684BA39A1D6074D400982529 /* NSDate+XZFormatString.h */,
+				684BA39B1D6074D400982529 /* NSDate+XZFormatString.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		684BA39D1D60950B00982529 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSObject;
 			sourceTree = "<group>";
 		};
 		68826D291D59B4880049057F /* NSDictionary */ = {
@@ -303,6 +334,8 @@
 		688B0FB21D58689300C052B8 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				684BA39D1D60950B00982529 /* NSObject */,
+				684BA3911D5DB88100982529 /* NSDate */,
 				684BA3811D5DA94600982529 /* NSArray */,
 				684BA3711D5D9BE700982529 /* NSData */,
 				684BA3621D5C4D4600982529 /* NSString */,
@@ -351,6 +384,7 @@
 				68826D331D59D6700049057F /* NSUserDefaultTests.m */,
 				681F31731D59F29B00659149 /* NSNumberTests.m */,
 				684BA3661D5C4EEF00982529 /* NSStringTests.m */,
+				684BA3981D60568E00982529 /* NSDateTests.m */,
 			);
 			path = NSFileManager;
 			sourceTree = "<group>";
@@ -474,6 +508,7 @@
 				681F316E1D59E42500659149 /* NSMutableURLRequest+XZUpload.m in Sources */,
 				682E9C0D1D59FA9E00B3E9B5 /* NSNumber+XZNumberFormat.m in Sources */,
 				684BA36D1D5CA83500982529 /* NSString+XZNumerical.m in Sources */,
+				684BA3971D5DD38F00982529 /* NSDate+XZExtension.m in Sources */,
 				684BA3841D5DA95700982529 /* NSArray+XZJSONSerialization.m in Sources */,
 				684BA3701D5D9B3300982529 /* NSString+XZEncryption.m in Sources */,
 				684BA3651D5C4EA600982529 /* NSString+XZPinyin.m in Sources */,
@@ -481,12 +516,14 @@
 				684BA3801D5DA8EA00982529 /* NSDictionary+XZJSONSerialization.m in Sources */,
 				682E9C111D5A00F300B3E9B5 /* NSAttributedString+XZMessageEmoji.m in Sources */,
 				688B0F911D5867EF00C052B8 /* AppDelegate.m in Sources */,
+				684BA3901D5DADCB00982529 /* NSString+XZURLEncode.m in Sources */,
 				681F31721D59F15400659149 /* NSNumber+XZRound.m in Sources */,
 				684BA3771D5DA29500982529 /* NSData+XZEncrypt.m in Sources */,
 				684BA37A1D5DA85A00982529 /* NSData+XZJSONSerialization.m in Sources */,
 				688B0F8E1D5867EF00C052B8 /* main.m in Sources */,
-				684BA3871D5DAB9500982529 /* NSString+URLEncode.m in Sources */,
+				684BA3941D5DB8B100982529 /* NSDate+XZUtilities.m in Sources */,
 				68E20C921D597FB600F79B7E /* NSFileManager+XZPath.m in Sources */,
+				684BA39C1D6074D400982529 /* NSDate+XZFormatString.m in Sources */,
 				68826D321D59CAC20049057F /* NSUserDefaults+XZiCloud.m in Sources */,
 				682E9C141D5A036C00B3E9B5 /* NSAttributedString+XZAdditional.m in Sources */,
 				684BA37D1D5DA8A100982529 /* NSString+XZJSONSerialization.m in Sources */,
@@ -499,6 +536,7 @@
 			files = (
 				68826D341D59D6700049057F /* NSUserDefaultTests.m in Sources */,
 				684BA3671D5C4EEF00982529 /* NSStringTests.m in Sources */,
+				684BA3991D60568E00982529 /* NSDateTests.m in Sources */,
 				68E20C9C1D59AAC500F79B7E /* NSURL+XZParam.m in Sources */,
 				68E20C981D59853B00F79B7E /* NSFileManager+XZOperation.m in Sources */,
 				68826D281D59AD8E0049057F /* NSURLTexts.m in Sources */,
