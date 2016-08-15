@@ -31,6 +31,8 @@
 		684BA3971D5DD38F00982529 /* NSDate+XZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3961D5DD38F00982529 /* NSDate+XZExtension.m */; };
 		684BA3991D60568E00982529 /* NSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3981D60568E00982529 /* NSDateTests.m */; };
 		684BA39C1D6074D400982529 /* NSDate+XZFormatString.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA39B1D6074D400982529 /* NSDate+XZFormatString.m */; };
+		684BA3A21D60B3CA00982529 /* NSTimer+XZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3A11D60B3CA00982529 /* NSTimer+XZExtension.m */; };
+		684BA3A71D6162AD00982529 /* UIDevice+XZPhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BA3A61D6162AD00982529 /* UIDevice+XZPhoneModel.m */; };
 		68826D281D59AD8E0049057F /* NSURLTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D271D59AD8E0049057F /* NSURLTexts.m */; };
 		68826D2C1D59B4930049057F /* NSDictionary+XZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D2B1D59B4930049057F /* NSDictionary+XZURL.m */; };
 		68826D2E1D59B8700049057F /* NSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D2D1D59B8700049057F /* NSDictionaryTests.m */; };
@@ -105,6 +107,10 @@
 		684BA3981D60568E00982529 /* NSDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateTests.m; sourceTree = "<group>"; };
 		684BA39A1D6074D400982529 /* NSDate+XZFormatString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XZFormatString.h"; sourceTree = "<group>"; };
 		684BA39B1D6074D400982529 /* NSDate+XZFormatString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XZFormatString.m"; sourceTree = "<group>"; };
+		684BA3A01D60B3CA00982529 /* NSTimer+XZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+XZExtension.h"; sourceTree = "<group>"; };
+		684BA3A11D60B3CA00982529 /* NSTimer+XZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XZExtension.m"; sourceTree = "<group>"; };
+		684BA3A51D6162AD00982529 /* UIDevice+XZPhoneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XZPhoneModel.h"; sourceTree = "<group>"; };
+		684BA3A61D6162AD00982529 /* UIDevice+XZPhoneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZPhoneModel.m"; sourceTree = "<group>"; };
 		68826D271D59AD8E0049057F /* NSURLTexts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTexts.m; sourceTree = "<group>"; };
 		68826D2A1D59B4930049057F /* NSDictionary+XZURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZURL.h"; sourceTree = "<group>"; };
 		68826D2B1D59B4930049057F /* NSDictionary+XZURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZURL.m"; sourceTree = "<group>"; };
@@ -241,11 +247,29 @@
 			path = NSDate;
 			sourceTree = "<group>";
 		};
-		684BA39D1D60950B00982529 /* NSObject */ = {
+		684BA39E1D60960800982529 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				684BA3A01D60B3CA00982529 /* NSTimer+XZExtension.h */,
+				684BA3A11D60B3CA00982529 /* NSTimer+XZExtension.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		684BA39F1D6097A200982529 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = NSObject;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		684BA3A41D61629B00982529 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				684BA3A51D6162AD00982529 /* UIDevice+XZPhoneModel.h */,
+				684BA3A61D6162AD00982529 /* UIDevice+XZPhoneModel.m */,
+			);
+			path = UIDevice;
 			sourceTree = "<group>";
 		};
 		68826D291D59B4880049057F /* NSDictionary */ = {
@@ -324,6 +348,7 @@
 		688B0FB11D58684B00C052B8 /* XZCategories */ = {
 			isa = PBXGroup;
 			children = (
+				684BA39F1D6097A200982529 /* Controller */,
 				688B0FB21D58689300C052B8 /* Foundation */,
 				688B0FB31D58689300C052B8 /* Other */,
 				688B0FB41D58689300C052B8 /* UIKit */,
@@ -334,7 +359,7 @@
 		688B0FB21D58689300C052B8 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				684BA39D1D60950B00982529 /* NSObject */,
+				684BA39E1D60960800982529 /* NSTimer */,
 				684BA3911D5DB88100982529 /* NSDate */,
 				684BA3811D5DA94600982529 /* NSArray */,
 				684BA3711D5D9BE700982529 /* NSData */,
@@ -360,6 +385,7 @@
 		688B0FB41D58689300C052B8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				684BA3A41D61629B00982529 /* UIDevice */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -512,10 +538,12 @@
 				684BA3841D5DA95700982529 /* NSArray+XZJSONSerialization.m in Sources */,
 				684BA3701D5D9B3300982529 /* NSString+XZEncryption.m in Sources */,
 				684BA3651D5C4EA600982529 /* NSString+XZPinyin.m in Sources */,
+				684BA3A71D6162AD00982529 /* UIDevice+XZPhoneModel.m in Sources */,
 				684BA36A1D5C5C3800982529 /* NSString+XZRegular.m in Sources */,
 				684BA3801D5DA8EA00982529 /* NSDictionary+XZJSONSerialization.m in Sources */,
 				682E9C111D5A00F300B3E9B5 /* NSAttributedString+XZMessageEmoji.m in Sources */,
 				688B0F911D5867EF00C052B8 /* AppDelegate.m in Sources */,
+				684BA3A21D60B3CA00982529 /* NSTimer+XZExtension.m in Sources */,
 				684BA3901D5DADCB00982529 /* NSString+XZURLEncode.m in Sources */,
 				681F31721D59F15400659149 /* NSNumber+XZRound.m in Sources */,
 				684BA3771D5DA29500982529 /* NSData+XZEncrypt.m in Sources */,
