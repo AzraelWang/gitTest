@@ -74,4 +74,10 @@
     return [NSString stringWithFormat:@"%@ %@",[NSDate xz_ymdFormat],[NSDate xz_hmsFormat]];
 }
 
+
+
+- (NSString *)xz_toTimeStamp {
+    return [NSString stringWithFormat:@"%lf", [self timeIntervalSince1970]];
+}
+
 @end

@@ -210,4 +210,19 @@
     return [calendar dateFromComponents:components];
 }
 
++ (NSDate *)xz_toDateWithTimeStamp:(NSString *)timeStamp {
+    NSString *arg = timeStamp;
+    
+    if (![timeStamp isKindOfClass:[NSString class]]) {
+        arg = [NSString stringWithFormat:@"%@", timeStamp];
+    }
+    
+    if (arg.length > 10) {
+        arg = [arg substringToIndex:10];
+    }
+    
+    NSTimeInterval time = [arg doubleValue];
+    return [NSDate dateWithTimeIntervalSince1970:time];
+}
+
 @end

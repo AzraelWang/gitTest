@@ -37,4 +37,8 @@
 - (NSString *)xz_ymdHmsFormat;
 + (NSString *)xz_ymdHmsFormat;
 
+/**
+ *  转换成时间戳
+ */
+- (NSString *)xz_toTimeStamp;
 @end

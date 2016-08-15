@@ -52,6 +52,7 @@
 + (NSDate *)xz_dateWithYear:(NSInteger)year
                       month:(NSUInteger)month
                         day:(NSUInteger)day;
++ (NSDate *)xz_toDateWithTimeStamp:(NSString *)timeStamp;
 
 
 @end
