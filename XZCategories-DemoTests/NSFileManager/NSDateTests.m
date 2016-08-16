@@ -17,8 +17,21 @@
 
 @implementation NSDateTests
 
-- (void)testExample {
+- (void)testXZUtilities
+{
     
+    NSDate *tomorrow = [NSDate xz_tomorrow];
+    NSDate *yesterday = [NSDate xz_yesterday];
+    NSDate *daysAfter = [NSDate xz_dateWithDaysFromNow:2];
+    NSDate *daysBerore = [NSDate xz_dateWithDaysBeforeNow:2];
+    NSDate *hoursAfter = [NSDate xz_dateWithHoursFromNow:2];
+    NSDate *hoursBerore = [NSDate xz_dateWithHoursBeforeNow:2];
+    NSDate *minsAfter = [NSDate xz_dateWithMinutesFromNow:2];
+    NSDate *minsBerore = [NSDate xz_dateWithMinutesBeforeNow:2];
+    
+    NSDate *birthDay = [NSDate xz_dateWithYear:1990 month:2 day:18];
+    NSString *timeStamp = [birthDay xz_toTimeStamp];
+    NSDate *stampDate = [NSDate xz_toDateWithTimeStamp:timeStamp];
 }
 
 @end

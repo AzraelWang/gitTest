@@ -167,7 +167,7 @@
 }
 + (NSUInteger)xz_weeksOfMonth:(NSDate *)date
 {
-    return [[NSCalendar currentCalendar] ordinalityOfUnit:NSCalendarUnitWeekOfMonth inUnit:NSCalendarUnitMonth forDate:date];
+    return [[NSCalendar currentCalendar] ordinalityOfUnit:NSCalendarUnitWeekOfMonth inUnit:NSCalendarUnitMonth forDate:[date xz_lastdayOfMonth]];
 }
 
 
@@ -331,7 +331,7 @@
 
 
 /**
- *  几天距离某日期共几天
+ *  今天距离某日期共几天
  */
 - (NSUInteger)xz_daysAfter
 {

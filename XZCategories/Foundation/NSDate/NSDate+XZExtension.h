@@ -136,7 +136,7 @@
 + (NSUInteger)xz_daysAgo:(NSDate *)date;
 
 /**
- *  几天距离某日期共几天
+ *  今天距离某日期共几天
  */
 - (NSUInteger)xz_daysAfter;
 + (NSUInteger)xz_dayAfter:(NSDate *)date;
