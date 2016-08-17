@@ -51,9 +51,16 @@
 		686E1AA71D62ED79006EEC5B /* UIView+XZFrameShortcuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E1AA61D62ED79006EEC5B /* UIView+XZFrameShortcuts.m */; };
 		686E1AAD1D62F013006EEC5B /* UIControl+XZBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E1AAA1D62F013006EEC5B /* UIControl+XZBlock.m */; };
 		686E1AAE1D62F013006EEC5B /* UIControl+XZTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E1AAC1D62F013006EEC5B /* UIControl+XZTouchArea.m */; };
+		686E1AB11D62F40F006EEC5B /* UIView+XZGeometryConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E1AB01D62F40F006EEC5B /* UIView+XZGeometryConversion.m */; };
+		686E1AB41D62F64E006EEC5B /* UIView+XZLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E1AB31D62F64E006EEC5B /* UIView+XZLayoutConstraint.m */; };
+		686E1AB71D62F87D006EEC5B /* UIView+XZBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E1AB61D62F87D006EEC5B /* UIView+XZBorder.m */; };
 		68826D281D59AD8E0049057F /* NSURLTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D271D59AD8E0049057F /* NSURLTexts.m */; };
 		68826D2E1D59B8700049057F /* NSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D2D1D59B8700049057F /* NSDictionaryTests.m */; };
 		68826D341D59D6700049057F /* NSUserDefaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68826D331D59D6700049057F /* NSUserDefaultTests.m */; };
+		68882B291D63EA3300496CC7 /* UIView+XZFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 68882B281D63EA3300496CC7 /* UIView+XZFind.m */; };
+		68882B2C1D63F23400496CC7 /* UIView+XZShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 68882B2B1D63F23400496CC7 /* UIView+XZShake.m */; };
+		68882B301D64034C00496CC7 /* XZCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 68882B2F1D64034C00496CC7 /* XZCountDown.m */; };
+		68882B331D6410BD00496CC7 /* UILabel+XZSuggestSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 68882B321D6410BD00496CC7 /* UILabel+XZSuggestSize.m */; };
 		688B0F8E1D5867EF00C052B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B0F8D1D5867EF00C052B8 /* main.m */; };
 		688B0F911D5867EF00C052B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B0F901D5867EF00C052B8 /* AppDelegate.m */; };
 		688B0F941D5867EF00C052B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B0F931D5867EF00C052B8 /* ViewController.m */; };
@@ -62,6 +69,8 @@
 		688B0F9C1D5867EF00C052B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688B0F9A1D5867EF00C052B8 /* LaunchScreen.storyboard */; };
 		688B0FA71D5867EF00C052B8 /* XZCategories_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B0FA61D5867EF00C052B8 /* XZCategories_DemoTests.m */; };
 		68E20C951D59823E00F79B7E /* NSFileManagerTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E20C941D59823E00F79B7E /* NSFileManagerTexts.m */; };
+		68F50A391D643ED000D7764A /* UITextView+XZPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A381D643ED000D7764A /* UITextView+XZPlaceHolder.m */; };
+		68F50A3C1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A3B1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,9 +169,23 @@
 		686E1AAA1D62F013006EEC5B /* UIControl+XZBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XZBlock.m"; sourceTree = "<group>"; };
 		686E1AAB1D62F013006EEC5B /* UIControl+XZTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+XZTouchArea.h"; sourceTree = "<group>"; };
 		686E1AAC1D62F013006EEC5B /* UIControl+XZTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+XZTouchArea.m"; sourceTree = "<group>"; };
+		686E1AAF1D62F40F006EEC5B /* UIView+XZGeometryConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZGeometryConversion.h"; sourceTree = "<group>"; };
+		686E1AB01D62F40F006EEC5B /* UIView+XZGeometryConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZGeometryConversion.m"; sourceTree = "<group>"; };
+		686E1AB21D62F64E006EEC5B /* UIView+XZLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZLayoutConstraint.h"; sourceTree = "<group>"; };
+		686E1AB31D62F64E006EEC5B /* UIView+XZLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZLayoutConstraint.m"; sourceTree = "<group>"; };
+		686E1AB51D62F87D006EEC5B /* UIView+XZBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZBorder.h"; sourceTree = "<group>"; };
+		686E1AB61D62F87D006EEC5B /* UIView+XZBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZBorder.m"; sourceTree = "<group>"; };
 		68826D271D59AD8E0049057F /* NSURLTexts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTexts.m; sourceTree = "<group>"; };
 		68826D2D1D59B8700049057F /* NSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryTests.m; sourceTree = "<group>"; };
 		68826D331D59D6700049057F /* NSUserDefaultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultTests.m; sourceTree = "<group>"; };
+		68882B271D63EA3300496CC7 /* UIView+XZFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZFind.h"; sourceTree = "<group>"; };
+		68882B281D63EA3300496CC7 /* UIView+XZFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZFind.m"; sourceTree = "<group>"; };
+		68882B2A1D63F23400496CC7 /* UIView+XZShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XZShake.h"; sourceTree = "<group>"; };
+		68882B2B1D63F23400496CC7 /* UIView+XZShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZShake.m"; sourceTree = "<group>"; };
+		68882B2E1D64034C00496CC7 /* XZCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCountDown.h; sourceTree = "<group>"; };
+		68882B2F1D64034C00496CC7 /* XZCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCountDown.m; sourceTree = "<group>"; };
+		68882B311D6410BD00496CC7 /* UILabel+XZSuggestSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XZSuggestSize.h"; sourceTree = "<group>"; };
+		68882B321D6410BD00496CC7 /* UILabel+XZSuggestSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XZSuggestSize.m"; sourceTree = "<group>"; };
 		688B0F891D5867EF00C052B8 /* XZCategories-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XZCategories-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		688B0F8D1D5867EF00C052B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		688B0F8F1D5867EF00C052B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -177,6 +200,10 @@
 		688B0FA61D5867EF00C052B8 /* XZCategories_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZCategories_DemoTests.m; sourceTree = "<group>"; };
 		688B0FA81D5867EF00C052B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E20C941D59823E00F79B7E /* NSFileManagerTexts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileManagerTexts.m; sourceTree = "<group>"; };
+		68F50A371D643ED000D7764A /* UITextView+XZPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+XZPlaceHolder.h"; sourceTree = "<group>"; };
+		68F50A381D643ED000D7764A /* UITextView+XZPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XZPlaceHolder.m"; sourceTree = "<group>"; };
+		68F50A3A1D64432E00D7764A /* UITextView+XZInputLengthCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+XZInputLengthCalculate.h"; sourceTree = "<group>"; };
+		68F50A3B1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XZInputLengthCalculate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +445,16 @@
 			children = (
 				686E1AA51D62ED79006EEC5B /* UIView+XZFrameShortcuts.h */,
 				686E1AA61D62ED79006EEC5B /* UIView+XZFrameShortcuts.m */,
+				686E1AAF1D62F40F006EEC5B /* UIView+XZGeometryConversion.h */,
+				686E1AB01D62F40F006EEC5B /* UIView+XZGeometryConversion.m */,
+				686E1AB21D62F64E006EEC5B /* UIView+XZLayoutConstraint.h */,
+				686E1AB31D62F64E006EEC5B /* UIView+XZLayoutConstraint.m */,
+				686E1AB51D62F87D006EEC5B /* UIView+XZBorder.h */,
+				686E1AB61D62F87D006EEC5B /* UIView+XZBorder.m */,
+				68882B271D63EA3300496CC7 /* UIView+XZFind.h */,
+				68882B281D63EA3300496CC7 /* UIView+XZFind.m */,
+				68882B2A1D63F23400496CC7 /* UIView+XZShake.h */,
+				68882B2B1D63F23400496CC7 /* UIView+XZShake.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -431,6 +468,15 @@
 				686E1AAC1D62F013006EEC5B /* UIControl+XZTouchArea.m */,
 			);
 			path = UIControl;
+			sourceTree = "<group>";
+		};
+		68882B2D1D63F81F00496CC7 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				68882B311D6410BD00496CC7 /* UILabel+XZSuggestSize.h */,
+				68882B321D6410BD00496CC7 /* UILabel+XZSuggestSize.m */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 		688B0F801D5867EF00C052B8 = {
@@ -494,6 +540,8 @@
 				684BA4741D619A8300982529 /* metamacros.h */,
 				684BA46E1D618EAC00982529 /* EXTScope.h */,
 				684BA46F1D618EAC00982529 /* EXTScope.m */,
+				68882B2E1D64034C00496CC7 /* XZCountDown.h */,
+				68882B2F1D64034C00496CC7 /* XZCountDown.m */,
 				684BA40C1D6173DF00982529 /* Foundation */,
 				684BA39F1D6097A200982529 /* Controller */,
 				688B0FB31D58689300C052B8 /* Other */,
@@ -514,6 +562,8 @@
 		688B0FB41D58689300C052B8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				68F50A361D643EBA00D7764A /* UITextView */,
+				68882B2D1D63F81F00496CC7 /* UILabel */,
 				686E1AA81D62F013006EEC5B /* UIControl */,
 				686E1AA41D62EA0F006EEC5B /* UIView */,
 				686E1A961D61EA94006EEC5B /* UIImageView */,
@@ -535,6 +585,17 @@
 				684BA4751D619AC100982529 /* NSObjectTests.m */,
 			);
 			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		68F50A361D643EBA00D7764A /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				68F50A371D643ED000D7764A /* UITextView+XZPlaceHolder.h */,
+				68F50A381D643ED000D7764A /* UITextView+XZPlaceHolder.m */,
+				68F50A3A1D64432E00D7764A /* UITextView+XZInputLengthCalculate.h */,
+				68F50A3B1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m */,
+			);
+			path = UITextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -639,6 +700,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68882B331D6410BD00496CC7 /* UILabel+XZSuggestSize.m in Sources */,
+				686E1AB41D62F64E006EEC5B /* UIView+XZLayoutConstraint.m in Sources */,
 				684BA45C1D6173E000982529 /* NSFileManager+XZOperation.m in Sources */,
 				686E1AAD1D62F013006EEC5B /* UIControl+XZBlock.m in Sources */,
 				684BA4591D6173E000982529 /* NSDate+XZUtilities.m in Sources */,
@@ -651,15 +714,20 @@
 				686E1AAE1D62F013006EEC5B /* UIControl+XZTouchArea.m in Sources */,
 				684BA4561D6173E000982529 /* NSData+XZJSONSerialization.m in Sources */,
 				684BA4651D6173E000982529 /* NSString+XZRegular.m in Sources */,
+				686E1AB11D62F40F006EEC5B /* UIView+XZGeometryConversion.m in Sources */,
 				686E1A871D61A18D006EEC5B /* NSObject+XZAddProperty.m in Sources */,
 				684BA4601D6173E000982529 /* NSNumber+XZRound.m in Sources */,
 				686E1A8A1D61AB6B006EEC5B /* NSObject+XZRuntime.m in Sources */,
 				686E1A911D61DBA8006EEC5B /* CALayer+XZLines.m in Sources */,
 				688B0F911D5867EF00C052B8 /* AppDelegate.m in Sources */,
 				684BA44F1D6173E000982529 /* NSArray+XZJSONSerialization.m in Sources */,
+				68F50A3C1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m in Sources */,
 				684BA4641D6173E000982529 /* NSString+XZPinyin.m in Sources */,
 				684BA4581D6173E000982529 /* NSDate+XZFormatString.m in Sources */,
+				68882B301D64034C00496CC7 /* XZCountDown.m in Sources */,
+				686E1AB71D62F87D006EEC5B /* UIView+XZBorder.m in Sources */,
 				684BA45F1D6173E000982529 /* NSNumber+XZNumberFormat.m in Sources */,
+				68F50A391D643ED000D7764A /* UITextView+XZPlaceHolder.m in Sources */,
 				684BA4541D6173E000982529 /* NSData+XZBase64.m in Sources */,
 				686E1A951D61E657006EEC5B /* CAShapeLayer+XZUIBezierPath.m in Sources */,
 				684BA4531D6173E000982529 /* NSAttributedString+XZMessageEmoji.m in Sources */,
@@ -669,6 +737,7 @@
 				686E1A991D61ECD5006EEC5B /* UIImageView+XZCornerRadius.m in Sources */,
 				684BA46D1D6174DF00982529 /* NSObject+XZPubSub.m in Sources */,
 				684BA4701D618EAC00982529 /* EXTScope.m in Sources */,
+				68882B291D63EA3300496CC7 /* UIView+XZFind.m in Sources */,
 				686E1AA71D62ED79006EEC5B /* UIView+XZFrameShortcuts.m in Sources */,
 				684BA4551D6173E000982529 /* NSData+XZEncrypt.m in Sources */,
 				684BA45B1D6173E000982529 /* NSDictionary+XZURL.m in Sources */,
@@ -680,6 +749,7 @@
 				684BA4691D6173E000982529 /* NSUserDefaults+XZiCloud.m in Sources */,
 				684BA4731D619A1D00982529 /* NSObject+XZReflection.m in Sources */,
 				684BA4521D6173E000982529 /* NSAttributedString+XZImage.m in Sources */,
+				68882B2C1D63F23400496CC7 /* UIView+XZShake.m in Sources */,
 				684BA45D1D6173E000982529 /* NSFileManager+XZPath.m in Sources */,
 				684BA4661D6173E000982529 /* NSString+XZURLEncode.m in Sources */,
 			);

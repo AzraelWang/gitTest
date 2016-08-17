@@ -46,15 +46,11 @@
 - (void)widthEqualToView:(UIView *)view;
 - (void)sizeEqualToView:(UIView *)view;
 
-// imbueset
 - (void)fillWidth;
 - (void)fillHeight;
 - (void)fill;
 
 
 @property (nonatomic, readonly) UIView *xz_topSuperView;
-
-@property (nonatomic, readonly) UIViewController *xz_viewController;
-
 
 @end
