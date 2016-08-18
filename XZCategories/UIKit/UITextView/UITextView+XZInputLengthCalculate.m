@@ -10,16 +10,16 @@
 
 @implementation UITextView (XZInputLengthCalculate)
 
-- (NSInteger)xz_getInputLengthWithText:(NSString *)text
+- (NSInteger)xz_getInputingLength
 {
     NSInteger textLength = 0;
     //获取高亮部分
     UITextRange *selectedRange = [self markedTextRange];
     if (selectedRange) {
         NSString *newText = [self textInRange:selectedRange];
-        textLength = (newText.length + 1) / 2 + [self offsetFromPosition:self.beginningOfDocument toPosition:selectedRange.start] + text.length;
+        textLength = (newText.length + 1) / 2 + [self offsetFromPosition:self.beginningOfDocument toPosition:selectedRange.start];
     } else {
-        textLength = self.text.length + text.length;
+        textLength = self.text.length;
     }
     return textLength;
 }

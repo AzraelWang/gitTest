@@ -71,6 +71,17 @@
 		68E20C951D59823E00F79B7E /* NSFileManagerTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E20C941D59823E00F79B7E /* NSFileManagerTexts.m */; };
 		68F50A391D643ED000D7764A /* UITextView+XZPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A381D643ED000D7764A /* UITextView+XZPlaceHolder.m */; };
 		68F50A3C1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A3B1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m */; };
+		68F50A441D64540C00D7764A /* UIButton+XZImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A431D64540C00D7764A /* UIButton+XZImagePosition.m */; };
+		68F50A481D64662D00D7764A /* UIScrollView+XZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A471D64662D00D7764A /* UIScrollView+XZExtension.m */; };
+		68F50A4C1D64797E00D7764A /* UIWindow+XZFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A4B1D64797E00D7764A /* UIWindow+XZFind.m */; };
+		68F50A501D647FA700D7764A /* UIImage+XZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A4F1D647FA700D7764A /* UIImage+XZColor.m */; };
+		68F50A531D64807F00D7764A /* UIImage+XZBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A521D64807F00D7764A /* UIImage+XZBlur.m */; };
+		68F50A561D64809700D7764A /* UIImage+XZWaterMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A551D64809700D7764A /* UIImage+XZWaterMask.m */; };
+		68F50A591D6480BF00D7764A /* UIImage+XZStrech.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A581D6480BF00D7764A /* UIImage+XZStrech.m */; };
+		68F50A5C1D6480C900D7764A /* UIImage+XZResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A5B1D6480C900D7764A /* UIImage+XZResize.m */; };
+		68F50A5F1D6480FA00D7764A /* UIImage+XZCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A5E1D6480FA00D7764A /* UIImage+XZCompress.m */; };
+		68F50A621D6481EA00D7764A /* UIImage+XZRotateFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A611D6481EA00D7764A /* UIImage+XZRotateFlip.m */; };
+		68F50A651D65513C00D7764A /* UIImage+XZBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F50A641D65513C00D7764A /* UIImage+XZBlendMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +215,28 @@
 		68F50A381D643ED000D7764A /* UITextView+XZPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XZPlaceHolder.m"; sourceTree = "<group>"; };
 		68F50A3A1D64432E00D7764A /* UITextView+XZInputLengthCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+XZInputLengthCalculate.h"; sourceTree = "<group>"; };
 		68F50A3B1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+XZInputLengthCalculate.m"; sourceTree = "<group>"; };
+		68F50A421D64540C00D7764A /* UIButton+XZImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XZImagePosition.h"; sourceTree = "<group>"; };
+		68F50A431D64540C00D7764A /* UIButton+XZImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XZImagePosition.m"; sourceTree = "<group>"; };
+		68F50A461D64662D00D7764A /* UIScrollView+XZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XZExtension.h"; sourceTree = "<group>"; };
+		68F50A471D64662D00D7764A /* UIScrollView+XZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XZExtension.m"; sourceTree = "<group>"; };
+		68F50A4A1D64797E00D7764A /* UIWindow+XZFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+XZFind.h"; sourceTree = "<group>"; };
+		68F50A4B1D64797E00D7764A /* UIWindow+XZFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+XZFind.m"; sourceTree = "<group>"; };
+		68F50A4E1D647FA700D7764A /* UIImage+XZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZColor.h"; sourceTree = "<group>"; };
+		68F50A4F1D647FA700D7764A /* UIImage+XZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZColor.m"; sourceTree = "<group>"; };
+		68F50A511D64807F00D7764A /* UIImage+XZBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZBlur.h"; sourceTree = "<group>"; };
+		68F50A521D64807F00D7764A /* UIImage+XZBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZBlur.m"; sourceTree = "<group>"; };
+		68F50A541D64809700D7764A /* UIImage+XZWaterMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZWaterMask.h"; sourceTree = "<group>"; };
+		68F50A551D64809700D7764A /* UIImage+XZWaterMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZWaterMask.m"; sourceTree = "<group>"; };
+		68F50A571D6480BF00D7764A /* UIImage+XZStrech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZStrech.h"; sourceTree = "<group>"; };
+		68F50A581D6480BF00D7764A /* UIImage+XZStrech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZStrech.m"; sourceTree = "<group>"; };
+		68F50A5A1D6480C900D7764A /* UIImage+XZResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZResize.h"; sourceTree = "<group>"; };
+		68F50A5B1D6480C900D7764A /* UIImage+XZResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZResize.m"; sourceTree = "<group>"; };
+		68F50A5D1D6480FA00D7764A /* UIImage+XZCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZCompress.h"; sourceTree = "<group>"; };
+		68F50A5E1D6480FA00D7764A /* UIImage+XZCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZCompress.m"; sourceTree = "<group>"; };
+		68F50A601D6481EA00D7764A /* UIImage+XZRotateFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZRotateFlip.h"; sourceTree = "<group>"; };
+		68F50A611D6481EA00D7764A /* UIImage+XZRotateFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZRotateFlip.m"; sourceTree = "<group>"; };
+		68F50A631D65513C00D7764A /* UIImage+XZBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XZBlendMode.h"; sourceTree = "<group>"; };
+		68F50A641D65513C00D7764A /* UIImage+XZBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XZBlendMode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -562,6 +595,10 @@
 		688B0FB41D58689300C052B8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				68F50A4D1D647E7B00D7764A /* UIImage */,
+				68F50A491D64794700D7764A /* UIWindow */,
+				68F50A451D6465EE00D7764A /* UIScrollView */,
+				68F50A411D644AD300D7764A /* UIButton */,
 				68F50A361D643EBA00D7764A /* UITextView */,
 				68882B2D1D63F81F00496CC7 /* UILabel */,
 				686E1AA81D62F013006EEC5B /* UIControl */,
@@ -596,6 +633,56 @@
 				68F50A3B1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m */,
 			);
 			path = UITextView;
+			sourceTree = "<group>";
+		};
+		68F50A411D644AD300D7764A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				68F50A421D64540C00D7764A /* UIButton+XZImagePosition.h */,
+				68F50A431D64540C00D7764A /* UIButton+XZImagePosition.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		68F50A451D6465EE00D7764A /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				68F50A461D64662D00D7764A /* UIScrollView+XZExtension.h */,
+				68F50A471D64662D00D7764A /* UIScrollView+XZExtension.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		68F50A491D64794700D7764A /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				68F50A4A1D64797E00D7764A /* UIWindow+XZFind.h */,
+				68F50A4B1D64797E00D7764A /* UIWindow+XZFind.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		68F50A4D1D647E7B00D7764A /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				68F50A4E1D647FA700D7764A /* UIImage+XZColor.h */,
+				68F50A4F1D647FA700D7764A /* UIImage+XZColor.m */,
+				68F50A511D64807F00D7764A /* UIImage+XZBlur.h */,
+				68F50A521D64807F00D7764A /* UIImage+XZBlur.m */,
+				68F50A541D64809700D7764A /* UIImage+XZWaterMask.h */,
+				68F50A551D64809700D7764A /* UIImage+XZWaterMask.m */,
+				68F50A571D6480BF00D7764A /* UIImage+XZStrech.h */,
+				68F50A581D6480BF00D7764A /* UIImage+XZStrech.m */,
+				68F50A5A1D6480C900D7764A /* UIImage+XZResize.h */,
+				68F50A5B1D6480C900D7764A /* UIImage+XZResize.m */,
+				68F50A5D1D6480FA00D7764A /* UIImage+XZCompress.h */,
+				68F50A5E1D6480FA00D7764A /* UIImage+XZCompress.m */,
+				68F50A601D6481EA00D7764A /* UIImage+XZRotateFlip.h */,
+				68F50A611D6481EA00D7764A /* UIImage+XZRotateFlip.m */,
+				68F50A631D65513C00D7764A /* UIImage+XZBlendMode.h */,
+				68F50A641D65513C00D7764A /* UIImage+XZBlendMode.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -707,27 +794,35 @@
 				684BA4591D6173E000982529 /* NSDate+XZUtilities.m in Sources */,
 				684BA4611D6173E000982529 /* NSString+XZEncryption.m in Sources */,
 				684BA4791D619B8A00982529 /* XZSuggestion.m in Sources */,
+				68F50A561D64809700D7764A /* UIImage+XZWaterMask.m in Sources */,
 				688B0F941D5867EF00C052B8 /* ViewController.m in Sources */,
+				68F50A5C1D6480C900D7764A /* UIImage+XZResize.m in Sources */,
 				684BA4511D6173E000982529 /* NSAttributedString+XZBestSize.m in Sources */,
 				684BA3A71D6162AD00982529 /* UIDevice+XZPhoneModel.m in Sources */,
 				684BA4681D6173E000982529 /* NSURL+XZParam.m in Sources */,
 				686E1AAE1D62F013006EEC5B /* UIControl+XZTouchArea.m in Sources */,
+				68F50A5F1D6480FA00D7764A /* UIImage+XZCompress.m in Sources */,
 				684BA4561D6173E000982529 /* NSData+XZJSONSerialization.m in Sources */,
 				684BA4651D6173E000982529 /* NSString+XZRegular.m in Sources */,
 				686E1AB11D62F40F006EEC5B /* UIView+XZGeometryConversion.m in Sources */,
 				686E1A871D61A18D006EEC5B /* NSObject+XZAddProperty.m in Sources */,
 				684BA4601D6173E000982529 /* NSNumber+XZRound.m in Sources */,
+				68F50A501D647FA700D7764A /* UIImage+XZColor.m in Sources */,
+				68F50A591D6480BF00D7764A /* UIImage+XZStrech.m in Sources */,
 				686E1A8A1D61AB6B006EEC5B /* NSObject+XZRuntime.m in Sources */,
 				686E1A911D61DBA8006EEC5B /* CALayer+XZLines.m in Sources */,
 				688B0F911D5867EF00C052B8 /* AppDelegate.m in Sources */,
 				684BA44F1D6173E000982529 /* NSArray+XZJSONSerialization.m in Sources */,
 				68F50A3C1D64432E00D7764A /* UITextView+XZInputLengthCalculate.m in Sources */,
 				684BA4641D6173E000982529 /* NSString+XZPinyin.m in Sources */,
+				68F50A651D65513C00D7764A /* UIImage+XZBlendMode.m in Sources */,
 				684BA4581D6173E000982529 /* NSDate+XZFormatString.m in Sources */,
 				68882B301D64034C00496CC7 /* XZCountDown.m in Sources */,
+				68F50A531D64807F00D7764A /* UIImage+XZBlur.m in Sources */,
 				686E1AB71D62F87D006EEC5B /* UIView+XZBorder.m in Sources */,
 				684BA45F1D6173E000982529 /* NSNumber+XZNumberFormat.m in Sources */,
 				68F50A391D643ED000D7764A /* UITextView+XZPlaceHolder.m in Sources */,
+				68F50A441D64540C00D7764A /* UIButton+XZImagePosition.m in Sources */,
 				684BA4541D6173E000982529 /* NSData+XZBase64.m in Sources */,
 				686E1A951D61E657006EEC5B /* CAShapeLayer+XZUIBezierPath.m in Sources */,
 				684BA4531D6173E000982529 /* NSAttributedString+XZMessageEmoji.m in Sources */,
@@ -748,8 +843,11 @@
 				688B0F8E1D5867EF00C052B8 /* main.m in Sources */,
 				684BA4691D6173E000982529 /* NSUserDefaults+XZiCloud.m in Sources */,
 				684BA4731D619A1D00982529 /* NSObject+XZReflection.m in Sources */,
+				68F50A4C1D64797E00D7764A /* UIWindow+XZFind.m in Sources */,
 				684BA4521D6173E000982529 /* NSAttributedString+XZImage.m in Sources */,
+				68F50A621D6481EA00D7764A /* UIImage+XZRotateFlip.m in Sources */,
 				68882B2C1D63F23400496CC7 /* UIView+XZShake.m in Sources */,
+				68F50A481D64662D00D7764A /* UIScrollView+XZExtension.m in Sources */,
 				684BA45D1D6173E000982529 /* NSFileManager+XZPath.m in Sources */,
 				684BA4661D6173E000982529 /* NSString+XZURLEncode.m in Sources */,
 			);
